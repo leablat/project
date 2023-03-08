@@ -1,0 +1,77 @@
+ h1 {
+    text-align: center;
+    padding: 15px;
+    font-family: Lucida Handwriting, Helvetica, sans-serif;
+ }
+
+
+ 
+
+ form {
+
+    background-image: url(Assets/Images/page.webp);
+    text-align: center;
+ }
+
+ body {
+    background-image: url(Assets/Images/background.jpg);
+ }
+
+
+ #form {
+    width: 50%;
+    margin-left: 330px;
+ }
+
+ .noteTask {
+    position: relative;
+    display: inline-block;
+    width: 350px;
+    height: 320px;
+    background-image: url(Assets/Images/paper.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: auto;
+    margin-bottom: 10px;
+   
+     
+
+ }
+
+ #allTask {
+    direction:ltr;
+    display: inline-block;
+    text-align: center;
+    margin-left: -100px;
+margin-right: -170px;
+    
+
+
+ }
+ .divDataTime{
+   position: absolute;
+   bottom: 25px;
+   right: 100px;
+   margin-top: 20px;
+ }
+ .divActions{
+   text-align: right;
+   margin-top: 50px;
+   margin-right: 90px;
+   visibility: hidden;
+   
+ }
+ .divTaskDate{
+   text-align: center;
+   word-wrap: break-word;  
+   background: transparent;
+    border: none;
+    float: left;
+    margin-left: 10px;
+   margin-top: 10px;
+ }
+
+.bi{
+   color: crimson;
+   
+}
